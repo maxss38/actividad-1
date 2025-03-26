@@ -28,14 +28,14 @@ class Program
     {
         // Crear y usar un libro
         Libro libro1 = new Libro();
-        libro1.Titulo = "El Principito";
-        libro1.Autor = "Antoine de Saint-Exupéry";
+        libro1.Titulo = "El señor de los anillos";
+        libro1.Autor = "Tolkien";
         libro1.Leer();
 
         // Crear y usar un cuaderno
         Cuaderno cuaderno1 = new Cuaderno();
         cuaderno1.Marca = "Norma";
-        cuaderno1.Hojas = 100;
+        cuaderno1.Hojas = 80;
         cuaderno1.Escribir();
     }
 }
