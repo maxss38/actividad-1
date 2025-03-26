@@ -34,7 +34,7 @@ class Program
 
         // Crear y usar un cuaderno
         Cuaderno cuaderno1 = new Cuaderno();
-        cuaderno1.Marca = "Norma";
+        cuaderno1.Marca = "Gloria";
         cuaderno1.Hojas = 80;
         cuaderno1.Escribir();
     }
